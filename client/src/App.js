@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Test Upload: Express-fileupload</h1>
+        <h1>Test Upload: Multer</h1>
         <p>Upload an <code>a.png</code>, <code>b.png</code>, <code>c.png</code>, <code>d.png</code> to test. - Weng</p>
         <div className="gallery">
           <img className="image" src={`uploads/a.png?v=${purgeCache}`}></img>
